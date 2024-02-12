@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --bg1: #F1E0AC;
+    --color1: #495371;
+    --color2: #74959A;
+    --text-center: center;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+header {
+    text-align: var(--text-center);
+}
+
+.top-menu {
+    background-color: var(--branco);
+    padding: .6rem 0;
+}
+
+.top-menu nav {
+    display: none;
+}
+
+.banner {
+    background: url(../img/banner.jpeg) 5% center no-repeat;
+    background-size: cover;
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.container-banner {
+    padding: 1.5rem 2rem;
+    background-color: var(--bg1);
+    opacity: 0.9;
+    border-radius: 2.8rem;
+}
+
+.container-banner h1 {
+    color: var(--color1);
+    margin-bottom: .2rem;
+}
+
+.servicos {
+    text-align: var(--text-center);
+    padding: 2.6rem 2rem 0 2rem;
+}
+
+.servicos h4 {
+    color: var(--color2);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.servicos h2 {
+    line-height: 1.8rem;
+    margin-top: .4rem;
+}
+
+.cards .card {
+    margin: 2.5rem 0;
+}
+
+.card .infos-container {
+    padding: .5rem 1.6rem;
+}
+
+.cards .card h3 {
+    margin: .6rem 0;
+    color: var(--color1);
+}
+
+.cards .card p {
+    color: var(--color1);
+    line-height: 1.25rem;
+}
+
+.cards .card img {
+    max-width: 90%;
+}
+
+.cupom {
+    background-color: var(--bg1);
+    padding: 2.6rem  4rem;
+    text-align: var(--text-center);
+}
+
+.cupom h3 {
+    color: var(--color1);
+}
+
+form input {
+    width: 90%;
+    border-radius: 1.4rem;
+    border: 4px solid var(--branco);
+    padding: .1rem 1rem;
+    outline: none;
+    text-align: var(--text-center);
+    font-size: 14px;
+    margin: 1.4rem 0 .8rem 0;
+}
+
+form button {
+    display: block;
+    text-transform: uppercase;
+    outline: none;
+    text-align: var(--text-center);
+    background-color: var(--color1);
+    color: var(--color2);
+    font-size: .7rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px var(--color1);
+    border-radius: 2.5rem;
+    padding: .8rem 1.4rem;
+    margin: 0 auto;
+}
+
+.bem-estar {
+    text-align: var(--text-center);
+    padding: 2.6rem 2rem;
+}
+
+.bem-estar img {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.bem-estar .texto-container h2 {
+    color: var(--color2);
+}
+
+.bem-estar .texto-container h4 {
+    margin: .2rem 0 1.7rem 0;
+}
+
+.bem-estar .texto-container p {
+    line-height: 1.25rem;
+}
+  
+footer {
+    text-align: var(--text-center);
+    font-size: 1rem;
+    border-top: 2px solid var(--color1);
+    padding: 1.2rem;
+    background: linear-gradient(to left, #495371, #74959A, #F1E0AC, #495371);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--preto);
+    margin-right: .5rem;
+}

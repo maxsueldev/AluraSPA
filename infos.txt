@@ -1,0 +1,5 @@
+INFOS:
+  fonts: Roboto
+  backgrounds: #FFFFFF, #74959A, #F1E0AC, #495371
+  colors: #495371, #74959A
+  hover: #495371
