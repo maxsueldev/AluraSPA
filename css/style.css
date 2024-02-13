@@ -17,8 +17,11 @@ body {
     overflow-x: hidden;
 }
 
-a {
+li {
     list-style: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -44,7 +47,7 @@ header {
 
 .top-menu {
     background-color: var(--branco);
-    padding: .6rem 0;
+    padding: 1rem 0;
 }
 
 .hamburger {
@@ -53,19 +56,22 @@ header {
 
 .lista-menu {
     position: absolute;
-    top: 0;
+    top: 3.1rem;
     width: 100%;
     text-align: center;
     background-color: var(--branco);
-    transform: translateY(-110%);
-    transition: all 1s ease-in;
+    /* transform: translateY(-110%); */
+    /* transition: all 1s ease-in; */
     z-index: 1;
-    padding: 1rem 0;
     border: 1px solid var(--preto);
+    height: 0;
+    overflow: hidden;
+    transition: height .8s ease-in;
 }
 
 .lista-menu.active {
-    transform: translateY(25%);
+    /* transform: translateY(27%); */
+    height: 160px;
 }
 
 .lista-menu li {
