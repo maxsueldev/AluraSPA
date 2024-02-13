@@ -59,8 +59,8 @@ header {
 }
 
 .lista-menu {
-    position: absolute;
-    top: 3.1rem;
+    position: relative;
+    top: 1rem;
     width: 100%;
     text-align: center;
     background-color: var(--branco);
@@ -75,7 +75,7 @@ header {
 
 .lista-menu.active {
     /* transform: translateY(27%); */
-    height: 180px;
+    height: 182px;
 }
 
 .lista-menu li {
