@@ -61,7 +61,7 @@ header {
     transition: all 1s ease-in;
     z-index: 1;
     padding: 1rem 0;
-    border: 2px solid var(--preto);
+    border: 1px solid var(--preto);
 }
 
 .lista-menu.active {
