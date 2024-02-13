@@ -58,7 +58,7 @@ header {
     text-align: center;
     background-color: var(--branco);
     transform: translateY(-110%);
-    transition: all 1.2s ease-in;
+    transition: all 1s ease-in;
     z-index: 1;
     padding: 1rem 0;
     border: 2px solid var(--preto);
