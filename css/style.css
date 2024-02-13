@@ -227,7 +227,7 @@ footer a {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 768px) and (max-width: 990px) { /* Tablet */
+@media only screen and (min-width: 768px) { /* Tablet */
     h1 {
         font-size: 4rem;
     }
@@ -280,7 +280,7 @@ footer a {
     }
 
     .banner {
-        background: url(../img/banner.jpeg) 27% center no-repeat;
+        background-position: 27%;
         background-size: cover;
         min-height: 350px;
     }
@@ -386,7 +386,78 @@ footer a {
 }
 
 @media only screen and (min-width: 991px) { /* desktop */
-    header {
-        background-color: green;
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .banner {
+        min-height: 420px;
+        background-position: bottom;
+    }
+
+    .container-banner {
+        padding: 1.6rem 3rem;
+    }
+    
+    .container-banner h1 {
+        margin-bottom: .1rem;
+    }
+
+    .servicos {
+        padding: 4.8rem 8rem;
+    }
+
+    .cards {
+        gap: 2rem;
+    }
+    
+    .card .infos-container {
+        padding: .5rem .8rem;
+    }
+    
+    .cards .card p {
+        line-height: 1.5rem;
+    }
+
+    .cupom {
+        padding: 6rem 4rem;
+    }
+    
+    form input {
+        width: 40%;
+    }
+    
+    form button {
+        font-size: 1rem;
+        padding: .8rem 2rem;
+    }
+
+    .bem-estar {
+        gap: 2rem;
+        padding: 4rem 6rem;
+    }
+
+    .bem-estar .texto-container {
+        text-align: left;
+    }
+    
+    .bem-estar .texto-container h4 {
+        line-height: 1.8rem;
+    }
+    
+    .bem-estar .texto-container p {
+        line-height: 1.5rem;
+    }
+
+    footer p {
+        font-size: 1rem;
     }
 }
