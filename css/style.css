@@ -13,6 +13,15 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 3.2rem;
 }
@@ -38,8 +47,34 @@ header {
     padding: .6rem 0;
 }
 
-.top-menu nav {
-    display: none;
+.hamburger {
+    cursor: pointer;
+}
+
+.lista-menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--branco);
+    transform: translateY(-110%);
+    transition: all 1.2s ease-in;
+    z-index: 1;
+    padding: 1rem 0;
+}
+
+.lista-menu.active {
+    transform: translateY(25%);
+}
+
+.lista-menu li {
+    padding: 1rem 0;
+}
+
+.lista-menu li a {
+    color: var(--preto);
+    font-size: 1.1rem;
+    padding: 1rem 8rem;
 }
 
 .banner {
@@ -167,7 +202,7 @@ footer {
     font-size: 1rem;
     border-top: 2px solid var(--color1);
     padding: 1.2rem;
-    background: linear-gradient(to left, #495371, #74959A, #F1E0AC, #495371);
+    background: linear-gradient(to left, var(--color1), var(--color2), var(--bg1), var(--color1));
 }
 
 footer a {
